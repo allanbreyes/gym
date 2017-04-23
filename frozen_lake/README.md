@@ -20,9 +20,12 @@ ice is slippery, so you won't always move in the direction you intend.
 
 The surface is described using a grid like the following:
 
-``` SFFF       (S: starting point, safe) FHFH       (F: frozen surface, safe)
-FFFH       (H: hole, fall to your doom) HFFG       (G: goal, where the frisbee
-is located) ```
+```
+SFFF       (S: starting point, safe)
+FHFH       (F: frozen surface, safe)
+FFFH       (H: hole, fall to your doom)
+HFFG       (G: goal, where the frisbee is located)
+```
 
 The episode ends when you reach the goal or fall in a hole. You receive a reward
 of 1 if you reach the goal, and zero otherwise.
