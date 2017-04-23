@@ -25,3 +25,11 @@ iteration are compared for 3 different MDPs, including:
 3. `Taxi-v2`
 
 Reproduce the results by running `python analysis/mdp.py`
+
+#### Q-learning Agents
+
+A Q-learner reinforcement learning algorithm was applied to the "Toy Text"
+environments. You can reproduce the results by running:
+
+- `python frozen_lake/q_learning.py`
+- `python taxi/q_learning.py`

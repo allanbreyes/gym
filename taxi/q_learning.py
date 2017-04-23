@@ -14,9 +14,9 @@ rewards = []
 iterations = []
 
 # Parameters
-alpha = 0.75
+alpha = 0.85
 discount = 0.99
-episodes = 2000
+episodes = 1000
 
 # Episodes
 for episode in xrange(episodes):
@@ -49,7 +49,7 @@ def chunk_list(l, n):
     for i in range(0, len(l), n):
         yield l[i:i + n]
 
-size = episodes / 50
+size = 5
 chunks = list(chunk_list(rewards, size))
 averages = [sum(chunk) / len(chunk) for chunk in chunks]
 
