@@ -1,0 +1,14 @@
+appdirs==1.4.3
+cycler==0.10.0
+functools32==3.2.3.post2
+gym==0.8.1
+matplotlib==2.0.0
+numpy==1.12.1
+packaging==16.8
+pyglet==1.2.4
+pyparsing==2.2.0
+python-dateutil==2.6.0
+pytz==2017.2
+requests==2.13.0
+six==1.10.0
+subprocess32==3.2.7
